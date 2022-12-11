@@ -27,11 +27,11 @@ function App() {
       const res = await axios.post("http://localhost:5000/notes", { note });
       if (res.status === 200) {
         console.log("Note added in DB -", res.data);
+        setNote("");
       }
     } catch (err) {
       console.log(err);
     }
-    setNote("");
   };
 
   console.log("note -", note);
