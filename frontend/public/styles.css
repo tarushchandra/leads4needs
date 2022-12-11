@@ -1,0 +1,26 @@
+
+.input-field {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.input-field input {
+    padding: 0.5em 1em;
+}
+
+.input-field button {
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
